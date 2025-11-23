@@ -38,10 +38,11 @@ Boolean function minimization is the process of simplifying a Boolean expression
 1.<img width="1920" height="1080" alt="Screenshot 2025-11-23 204526" src="https://github.com/user-attachments/assets/379ae700-fa7e-46c5-b8d9-25aaf411bf73" />
 2.<img width="1920" height="1080" alt="Screenshot 2025-11-23 205832" src="https://github.com/user-attachments/assets/7d990174-f360-4daa-a802-529f64997396" />
 
-
-
 **RTL realization**
+
+
 1.<img width="480" height="329" alt="Screenshot 2025-11-23 203532" src="https://github.com/user-attachments/assets/b87fc7d1-0a08-48fa-9d0d-93c21eaaa851" />
+
 2.<img width="430" height="249" alt="Screenshot 2025-11-23 205452" src="https://github.com/user-attachments/assets/c47d4d90-7473-4448-abe7-bb86e502fcb9" />
 
 **Output:**
