@@ -34,20 +34,37 @@ Boolean function minimization is the process of simplifying a Boolean expression
 
 **Program:**
 
-/* Program to implement the given logic function and to verify its operations in quartus using Verilog programming. 
-1.<img width="1920" height="1080" alt="Screenshot 2025-11-23 204526" src="https://github.com/user-attachments/assets/379ae700-fa7e-46c5-b8d9-25aaf411bf73" />
-2.<img width="1920" height="1080" alt="Screenshot 2025-11-23 205832" src="https://github.com/user-attachments/assets/7d990174-f360-4daa-a802-529f64997396" />
+1.
+```
+module DE2(a,b,c,d,f1); 
+input a,b,c,d; 
+output f1; 
+assign f1=((~b & ~d)|(~a & b & d)|(a & b & ~c)); 
+endmodule 
+
+```
+2.
+```
+module DE2(w,x,y,z,f2); 
+input w,x,y,z; 
+output f2; 
+assign f2=((~y & z)|( w & y )|(x & y)); 
+endmodule
+
+```
 
 **RTL realization**
 
 
-1.<img width="480" height="329" alt="Screenshot 2025-11-23 203532" src="https://github.com/user-attachments/assets/b87fc7d1-0a08-48fa-9d0d-93c21eaaa851" />
+1.![alt text](<LOGICAL DIAGRAM 2.1.png>)
 
-2.<img width="430" height="249" alt="Screenshot 2025-11-23 205452" src="https://github.com/user-attachments/assets/c47d4d90-7473-4448-abe7-bb86e502fcb9" />
+2.![alt text](<LOGICAL DIAGRAM 2.2.png>)
 
 **Output:**
-1.<img width="1920" height="1080" alt="Screenshot 2025-11-23 204314" src="https://github.com/user-attachments/assets/625e0729-c191-4830-9b9e-fe39593b64e6" />
-2.<img width="1920" height="1080" alt="Screenshot 2025-11-23 205806" src="https://github.com/user-attachments/assets/a3d73819-c1e0-4fd3-af50-d34d036aeccc" />
+
+1.![alt text](<WAVEFORM 2.1.png>)
+
+2.![alt text](<WAVEFORM 2.2.png>)
 
 
 **Result:**
